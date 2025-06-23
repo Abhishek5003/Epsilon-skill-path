@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Epsilon Sill Path</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">E-Learn</div>
+    <div class="nav-links">
+      <ul>
+        <li data-section="home-section">Home</li>
+        <li data-section="courses-section">Courses</li>
+        <li data-section="about-section">About</li>
+      </ul>
+    </div>
+    <button class="toggle-button" id="theme-toggle">Light/Dark</button>
+  </nav>
+
+  <!-- Home Section with motivational tagline -->
+  <section id="home-section" class="section active">
+    <h1>Unlock Your Potential with Curated Learning Experiences</h1>
+    <button class="cta-button" id="explore-courses">Explore Courses</button>
+  </section>
+
+  <!-- Courses Section with course cards and progress bars -->
+  <section id="courses-section" class="section">
+    <h2 style="text-align: center ; font-size: 2.3rem;">Available Courses</h2>
+    <div class="courses-container" id="courses-container">
+      <!-- Predefined Courses -->
+      <div class="course-card">
+        <h3><a href="https://youtu.be/HcOc7P5BMi4?si=HvFCLv95VhUbse6k">HTML</a></h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 70%;"></div>
+        </div>
+      </div>
+      <div class="course-card">
+        <h3><a href="https://youtu.be/ESnrn1kAD4E?si=3jgJpuHW1nSMORU5">CSS</a></h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 60%;"></div>
+        </div>
+      </div>
+      <div class="course-card">
+        <h3><a href="https://youtu.be/ajdRvxDWH4w?si=6_FHK0pRF_1V18L2">JavaScript</a></h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 50%;"></div>
+        </div>
+      </div>
+      <div class="course-card">
+        <h3><a href="https://youtu.be/irqbmMNs2Bo?si=r-YvSQOl_k-myN_X">C Programing</a></h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 40%;"></div>
+        </div>
+      </div>
+      <div class="course-card">
+        <h3><a href="https://youtu.be/ERCMXc8x7mc?si=nlpfA1bipsrl_Tp3">Python</a></h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 30%;"></div>
+        </div>
+      </div>
+    </div>
+    <button class="add-course-btn" id="add-course-btn">Add Course</button>
+  </section>
+
+  <!-- About Section with description -->
+  <section id="about-section" class="section">
+    <h2>About Our Platform</h2>
+    <p>
+      Our e-learning platform is designed to fuel your drive and passion for learning. We believe that every small step leads to a giant leap in personal growth.
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
